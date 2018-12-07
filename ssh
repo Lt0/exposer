@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo ----------------------------------------
+date
+ssh -NR 1222:localhost:22 45.32.84.249 -l hpq
+sleep 3
